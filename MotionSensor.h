@@ -6,7 +6,7 @@
 
 #include <vector>
 
-//Concrete Subject
+//Concrete Subject or observer
 class MotionSensor : public Sensor 
 {
     private:
