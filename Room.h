@@ -15,7 +15,7 @@ class Room : public SmartDevice
         Room(const std::string& name);
         void addDevice(SmartDevice* device);
         std::string getStatus() const override;
-        void performAction(const std::string& action) override;
+        // void performAction(const std::string& action) override;
         std::string getSmartDeviceType() const override;
 };
 

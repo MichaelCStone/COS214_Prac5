@@ -11,11 +11,11 @@ class HouseSection
     private:
         std::string name;
         std::vector<Room> rooms;
-        
+
     public:
         HouseSection(const std::string& name);
         void addRoom(const Room& room);
-        void performActionOnAllRooms(const std::string& action);
+        // void performActionOnAllRooms(const std::string& action);
 };
 
 #endif
