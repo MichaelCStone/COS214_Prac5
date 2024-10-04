@@ -14,7 +14,7 @@ class SmartThermostatIntegrator : public SmartDevice
     public:
         SmartThermostatIntegrator(SmartThermostatIntegrator* thermostat);
         std::string getStatus() const override;
-        void performAction(const std::string& action) override;
+        // void performAction(const std::string& action) override;
         std::string getSmartDeviceType() const override;
 };
 

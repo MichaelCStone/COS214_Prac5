@@ -11,7 +11,7 @@ class Thermostat : public SmartDevice
     public:
         Thermostat();
         std::string getStatus() const override;
-        void performAction(const std::string& action) override;
+        // void performAction(const std::string& action) override;
         std::string getSmartDeviceType() const override;
 };
 
