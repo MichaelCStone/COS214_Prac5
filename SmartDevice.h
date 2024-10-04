@@ -3,6 +3,7 @@
 
 #include <string>
 
+//Observer for component 4
 class SmartDevice 
 {
     public:
